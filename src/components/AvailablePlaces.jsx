@@ -23,7 +23,6 @@ export default function AvailablePlaces({ onSelectPlace }) {
             position.coords.latitude,
             position.coords.longitude
           );
-
           setAvailablePlaces(sortedPlaces);
           setIsFetching(false);
         });
